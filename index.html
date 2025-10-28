@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Planner</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>📅 Weekly Planner</h1>
+    <p>Organize sua semana com praticidade e foco!</p>
+  </header>
+
+  <main>
+    <section class="add-task">
+      <input type="text" id="taskInput" placeholder="Nova tarefa..." />
+      <select id="daySelect">
+        <option value="monday">Segunda</option>
+        <option value="tuesday">Terça</option>
+        <option value="wednesday">Quarta</option>
+        <option value="thursday">Quinta</option>
+        <option value="friday">Sexta</option>
+        <option value="saturday">Sábado</option>
+        <option value="sunday">Domingo</option>
+      </select>
+      <button id="addTaskBtn">Adicionar</button>
+    </section>
+
+    <section class="planner">
+      <div class="weekdays">
+        <div class="day" data-day="monday"><h2>Segunda</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="tuesday"><h2>Terça</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="wednesday"><h2>Quarta</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="thursday"><h2>Quinta</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="friday"><h2>Sexta</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="saturday"><h2>Sábado</h2><ul class="task-list"></ul></div>
+        <div class="day" data-day="sunday"><h2>Domingo</h2><ul class="task-list"></ul></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <strong>Seu Nome</strong> 💻</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

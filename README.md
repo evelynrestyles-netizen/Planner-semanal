@@ -28,3 +28,19 @@ Feito com **HTML, CSS e JavaScript puro**, com **salvamento automático no Local
    ```bash
    git clone https://github.com/<seu-usuario>/weekly-planner.git
    cd weekly-planner
+   ```
+2. Abra o arquivo `index.html` no navegador  
+3. Adicione suas tarefas e veja o progresso ser salvo automaticamente  
+
+---
+
+## 🌱 Possíveis melhorias
+- [ ] Implementar login e perfis  
+- [ ] Conectar a banco SQL  
+- [ ] Exportar tarefas em CSV ou PDF  
+- [ ] Alternar tema claro/escuro  
+
+---
+
+## 📜 Licença
+Este projeto está sob a licença **MIT** — sinta-se livre para usar e aprimorar!
